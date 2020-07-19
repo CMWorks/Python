@@ -13,26 +13,25 @@ The program gives you different options on how to preprocess the image. You can 
 The program also displays the preprocessed image so the user can see what the effects are doing, all in real time.
 
 ## Technologies
--Python 3.6
--Tesseract-OCR 5.0 *[Though other versions will work]*
-  -https://github.com/tesseract-ocr/tesseract/releases
+- Python 3.6
+- [Tesseract-OCR 5.0](https://github.com/UB-Mannheim/tesseract/wiki) *Though other versions will work*
 
 ## Installation
-Download and install Tesseract-ORC into 'https://github.com/UB-Mannheim/tesseract/wiki'
+Download and install Tesseract-ORC from 'https://github.com/UB-Mannheim/tesseract/wiki'
 **It is _extremely_ important that you install it into this exact location otherwise the program will not work**
 **If it still does not work, make sure that the tesseract.exe is located in 'C:/Program Files/Tesseract-OCR/tesseract.exe' and the tessdata folder is located in 'C:/Program Files/Tesseract-OCR/tessdata/'**
 Download and place the python and run.bat file anywhere, does not matter where. Then run the run.bat file to start.
 
-# Guide
+## Guide
 ***This program works best on multi-monitor systems. Single monitor systems will work, just not as well.***
 When you first start the program, three windows will popup. The first is the Python console, the second being the main GUI, and the last being the image output.
 You can minimize, *not close as that would close the entire program*, the Python console as there is no need for it.
 ![Main GUI](http:cmworks.github.io/src/auto_trans_gui.png)
 As for the GUI, there are 4 parts to it:
--language detection
--preprocessing
--bounds
--output
+- language detection
+- preprocessing
+- bounds
+- output
 
 ### language detection
 Depending on what language data you selected to install with Tesseract-OCR, you can select different languages for the program to extract from an image.
