@@ -1,4 +1,0 @@
-imutils==0.5.3
-googletrans==3.0.0
-pytesseract==0.3.4
-PyAutoGUI==0.9.44
