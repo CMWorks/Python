@@ -18,8 +18,9 @@ The program also displays the preprocessed image so the user can see what the ef
 
 ## Installation
 Download and install Tesseract-ORC from 'https://github.com/UB-Mannheim/tesseract/wiki'
-*It is _extremely_ important that you install it into this exact location otherwise the program will not work.*
-*If it still does not work, make sure that the tesseract.exe is located in 'C:/Program Files/Tesseract-OCR/tesseract.exe' and the tessdata folder is located in 'C:/Program Files/Tesseract-OCR/tessdata/'*
+* *It is _extremely_ important that you install it into this exact location otherwise the program will not work.*
+* *If it still does not work, make sure that the tesseract.exe is located in 'C:/Program Files/Tesseract-OCR/tesseract.exe' and the tessdata folder is located in 'C:/Program Files/Tesseract-OCR/tessdata/'*
+
 Download and place the python and run.bat file anywhere, does not matter where. Then run the run.bat file to start.
 
 ## Guide
@@ -35,8 +36,8 @@ As for the GUI, there are 4 parts to it:
 
 ### language detection
 Depending on what language data you selected to install with Tesseract-OCR, you can select different languages for the program to extract from an image.
-For example: by default, eng (English) is select. This means that the program will extract English text from an image.
-  If you installed and selected another language, lets say jpn (Japanese), then the program will extract Japanese text from an image, then translates it to English using Google translates.
+- For example: by default, eng (English) is select. This means that the program will extract English text from an image.
+If you installed and selected another language, lets say jpn (Japanese), then the program will extract Japanese text from an image, then translates it to English using Google translates.
 
 ### preprocessing
 The program gives you three options on how you want the image to be preprocessed. You can select the type of threshold, Linear or Gaussian, you can rotate the image if the text is not straight, and you can invert the colors.
